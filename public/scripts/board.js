@@ -13,4 +13,7 @@ Chessboard('board', {
   onMoveEnd: () => {
     console.log('onMoveEnd');
   },
+  onDragMove: () => {
+    console.log('onDragMove');
+  },
 });
